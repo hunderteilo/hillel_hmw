@@ -1,0 +1,43 @@
+@font-face {
+	font-family: "Dancing Script";
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+		src: local("Dancing Script"),
+				 url("./fonts/DancingScript-VariableFont_wght.woff2") format("woff2"),
+				 url("./fonts/DancingScript-VariableFont_wght.woff") format("woff")
+				 url("./fonts/DancingScript-VariableFont_wght.ttf") format("ttf");
+}
+.tab {
+	font-family: "Montserrat";
+	font-size: 30px;
+	color: yellowgreen;
+	letter-spacing: -2px;
+	word-spacing: 2px;
+	text-indent: 30px;
+	font-weight: 100;
+	line-height: 90px;
+	inline-size: 1200px;
+}
+.tab1 {
+	font-family: "Yellowtail";
+	font-size: 28px;
+	color: rgb(146, 77, 25);
+	letter-spacing: 5px;
+	word-spacing: -5px;
+	text-indent: -5px;
+	font-weight: 700;
+	line-height: 20px;
+	inline-size: 1800px;
+}
+.tab2 {
+	font-family: "Dancing Script"; 
+	font-style: italic;
+	font-size: 25px;
+	color: rgb(45, 11, 98);
+	letter-spacing: 8px;
+	text-indent: 50px;
+	font-weight: lighter;
+	line-height: 30px;
+	inline-size: 900px;
+}
