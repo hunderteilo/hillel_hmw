@@ -1,0 +1,206 @@
+@font-face {
+	font-family: "Gilroy";
+	font-style: normal;
+	font-weight: bold;
+	font-display: swap;
+	src: local("Gilroy"),
+	url("../Fonts/Gilroy-Font/gilroy-bold.woff2") format("woff2"),
+	url("../Fonts/Gilroy-Font/gilroy-bold.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Gilroy";
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: local("Gilroy"),
+	url("../Fonts/Gilroy-Font/gilroy-semibold.woff2") format("woff2"),
+	url("../Fonts/Gilroy-Font/gilroy-semibold_1.woff") format("woff");
+}
+
+header {
+	margin: 80px 170px 20px;
+	overflow: hidden;
+}
+
+.nav_bar {
+	overflow: hidden;
+	max-height: 36px;
+}
+
+nav {
+	overflow: hidden;
+	float: left;
+	max-height: 36px;
+	font-family: "Gilroy", "Arial", sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	letter-spacing: 2px;
+	line-height: 20px;
+}
+
+ul {
+	overflow: hidden;
+	list-style: none;
+	max-height: 20px;
+	margin: 0px;
+	padding-top: 8px;
+}
+
+.nav_bar a {
+	float: left;
+	color: #B5B5B5;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #F2994A;
+}
+
+li {
+	float: left;
+	padding-right: 20px;
+}
+
+.nav_button button {
+	float: right;
+	font-family: "Rubic", Arial, Helvetica, sans-serif;
+	font-weight: 300;
+	font-size: 12px;
+	letter-spacing: 2px;
+	line-height: 20px;
+}
+
+.nav_button {
+	overflow: hidden;
+	float: right;
+}
+
+.sign_in {
+	height: 36px;
+	width: 112px;
+	margin-right: 20px;
+	border: solid 1px #F2994A;
+	border-radius: 3px;
+	color: #F2994A;
+	background: transparent;
+}
+
+.sign_up {
+	height: 36px;
+	width: 112px;
+	color: #fff;
+	background: #F2994A ;
+	border-radius: 3px;
+	border: 0px;
+	}
+
+.clearfix::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+body {
+	background-color: #0F1145;
+}
+
+.container-baclgrundgr {
+	background: linear-gradient(45deg, #271D60, #2A1955, #241752, #1E154E, #040D3E), url(../background_image/backgrund_run_men.png);
+	background-blend-mode: color-dodge;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-left: 137px;
+}
+
+.container_video {
+	inline-size: 540px;
+	float: left;
+	overflow: hidden;
+	margin-left: 33px;
+	margin-right: 569px;
+	margin-bottom: 103px;
+}
+.container_video h1 {
+	font-family: "Inter";
+	font-weight: 700;
+	font-size: 44px;
+	line-height: 50px;
+	inline-size: 510px;
+	color: #99EFD0;
+	margin-bottom: 19px;
+}
+.disc {
+	font-family: "Gilroy", "Arial", "sans-serif";
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 22px;
+	color: #8476AA;
+	inline-size: 468px;
+	margin-bottom: 40px;
+}
+.container_video button {
+	font-family: "Rubic", Arial, Helvetica, sans-serif;
+	font-weight: 300;
+	font-size: 12px;
+	letter-spacing: 2px;
+	line-height: 20px;
+	margin-bottom: 60px;
+}
+.Learn_more {
+	height: 46px;
+	width: 157px;
+	color: #fff;
+	background: #F2994A ;
+	border-radius: 3px;
+	border: 0px;
+	margin-right: 20px;
+}
+.Demo {
+	height: 46px;
+	width: 157px;
+	border: solid 1px #F2994A;
+	border-radius: 3px;
+	color: #F2994A;
+	background: transparent;
+}
+video{
+	float: left;
+	margin-right: 20px;
+}
+.video_prw {
+inline-size: 540px;
+}
+.disc2 {
+	font-family: "Rubic";
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 22px;
+	color: #8476AA;
+	margin-bottom: 0px;
+}
+.watch  {
+	inline-size: 95px;
+	float: left;
+	font-family: "Rubic";
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 22px;
+	color: #6D6D78;
+	margin-top: 6px;
+	margin-bottom: 0px;
+}
+
+.partners {
+	float: left;
+	max-width: 1170px;
+	max-height: 30px;
+	margin-left: 168px;
+	margin: 91px 300px 0px 168px;
+}
+ img {
+	margin: 0px 32px;
+ }
+ .preferences {
+	float: left;
+ }
